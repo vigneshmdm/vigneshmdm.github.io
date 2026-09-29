@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vignesh Karuppasamy D M — Design Verification Engineer</title>
+  <meta name="description" content="Portfolio of Vignesh Karuppasamy D M, Design Verification Engineer at AMD. SystemVerilog/UVM verification, RTL design, FPGA/ASIC, ML for EDA.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Primary">
+      <a class="brand" href="#top">Vignesh Karuppasamy D M</a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a class="btn btn-small" href="assets/resume.pdf" download>Resume</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero container" id="top" aria-label="Introduction">
+      <div class="hero-text">
+        <h1>Vignesh Karuppasamy D M</h1>
+        <p class="headline">Design Verification Engineer</p>
+        <p class="subline">Silicon Design Engineer 2 at AMD &middot; M.Eng, University of Waterloo</p>
+        <p class="subline-2">I verify complex GPU/SoC blocks &mdash; SystemVerilog/UVM, RTL design, and ML applied to chip design.</p>
+        <p class="location">Richmond Hill, Ontario, Canada</p>
+        <div class="hero-actions">
+          <a class="btn" href="#projects">View projects</a>
+          <a class="btn btn-outline" href="#contact">Contact</a>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <img src="assets/photo.jpg" alt="Portrait of Vignesh Karuppasamy D M" width="640" height="800">
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section container reveal" id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About</h2>
+      <p class="about-text">Electrical &amp; Computer Engineer (M.Eng, Waterloo) working on design verification of cache/memory blocks in GPU/SoC at AMD. Background in RTL design, FPGA/ASIC, and UVM-based verification, with ML-for-EDA research.</p>
+    </section>
+
+    <!-- Experience -->
+    <section class="section container reveal" id="experience" aria-labelledby="experience-heading">
+      <h2 id="experience-heading">Experience</h2>
+
+      <article class="job">
+        <div class="logo-card">
+          <img src="assets/logos/amd.svg" alt="AMD" loading="lazy">
+        </div>
+        <div class="job-body">
+          <h3>Silicon Design Engineer 2</h3>
+          <p class="job-meta">AMD, Markham &middot; Apr 2026 &ndash; Present</p>
+          <ul>
+            <li>Verify Cache &amp; Memory Management (CMM) blocks in GPU/SoC designs.</li>
+            <li>Develop and debug SystemVerilog/UVM testbenches and reusable verification components.</li>
+            <li>Define verification plans (functional/performance/power), run constrained-random testing to coverage closure, and debug with RTL designers toward sign-off.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="job">
+        <div class="logo-card">
+          <img src="assets/logos/visteon.svg" alt="Visteon" loading="lazy">
+        </div>
+        <div class="job-body">
+          <h3>Graduate Engineer Trainee</h3>
+          <p class="job-meta">Visteon India, Chennai &middot; Feb 2024 &ndash; Dec 2024</p>
+          <ul>
+            <li>Optimized SMT processes (stencil design, reflow profiles), improving first-time-through rates and reducing scrap.</li>
+            <li>DFMEA and Six Sigma root-cause analysis; APQP product launches.</li>
+            <li>CAN/CANoe/CANalyzer validation.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="job">
+        <div class="logo-card">
+          <img src="assets/logos/visteon.svg" alt="Visteon" loading="lazy">
+        </div>
+        <div class="job-body">
+          <h3>Intern Trainee</h3>
+          <p class="job-meta">Visteon India, Chennai &middot; Jul 2023 &ndash; Feb 2024</p>
+          <ul>
+            <li>SMT line time-motion studies and yield improvement.</li>
+            <li>8D PCB defect investigations; SOPs per IATF 16949/ISO 14001; supported Tata, Mahindra, and Hyundai programs.</li>
+          </ul>
+        </div>
+      </article>
+    </section>
+
+    <!-- Projects -->
+    <section class="section container reveal" id="projects" aria-labelledby="projects-heading">
+      <h2 id="projects-heading">Projects</h2>
+      <div class="project-grid">
+        <article class="project-card">
+          <h3>High-Performance Systolic Array Matrix Multiplier on FPGA</h3>
+          <p>Parametric Verilog systolic array, 32 parallel MACs/cycle, &gt;10x faster than CPU, deployed on PYNQ FPGA.</p>
+          <ul class="tags" aria-label="Technologies">
+            <li>Verilog</li><li>Vivado</li><li>PYNQ</li><li>Python</li>
+          </ul>
+        </article>
+        <article class="project-card">
+          <h3>Integer Softmax &amp; Layer Normalization for Quantized Neural Networks</h3>
+          <p>Integer-only SystemVerilog modules, full throughput at 100&nbsp;MHz, &lt;10&nbsp;ns critical path.</p>
+          <ul class="tags" aria-label="Technologies">
+            <li>SystemVerilog</li><li>Fixed-point</li><li>Vivado</li>
+          </ul>
+        </article>
+        <article class="project-card">
+          <h3>Hardware Resource Prediction with ML</h3>
+          <p>Regression, convex-optimization, and neural-network models predicting FPGA resource usage, up to 70% RMSE reduction.</p>
+          <ul class="tags" aria-label="Technologies">
+            <li>Python</li><li>scikit-learn</li><li>CVXPY</li><li>PyTorch</li>
+          </ul>
+        </article>
+        <article class="project-card">
+          <h3>RISC-V 5-Stage Pipelined Processor with UVM Verification</h3>
+          <p>RV32I core with hazard detection/forwarding, verified with a full UVM environment, 100% functional correctness.</p>
+          <ul class="tags" aria-label="Technologies">
+            <li>SystemVerilog</li><li>UVM</li><li>Verilator</li><li>RISC-V</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- Accomplishments -->
+    <section class="section container reveal" id="accomplishments" aria-labelledby="accomplishments-heading">
+      <h2 id="accomplishments-heading">Accomplishments</h2>
+      <ul class="accomplishments">
+        <li><img src="assets/logos/ieee.svg" alt="IEEE" class="inline-logo" loading="lazy"> IEEE Xplore paper &mdash; AI-Based Interactive Smart Robot for Elderly Health Monitoring</li>
+        <li><img src="assets/logos/cadence.svg" alt="Cadence" class="inline-logo" loading="lazy"> Cadence Certified in SystemVerilog Design &amp; Verification</li>
+        <li>Spot Award, Visteon India</li>
+        <li>Smart Elector Validation System &mdash; recognized by Sony India &amp; IIT Madras, SERB-INAE Conclave, IIT Kanpur</li>
+      </ul>
+    </section>
+
+    <!-- Education -->
+    <section class="section container reveal" id="education" aria-labelledby="education-heading">
+      <h2 id="education-heading">Education</h2>
+
+      <article class="job">
+        <div class="logo-card">
+          <img src="assets/logos/waterloo.svg" alt="University of Waterloo" loading="lazy">
+        </div>
+        <div class="job-body">
+          <h3>University of Waterloo</h3>
+          <p class="job-meta">M.Eng, Electrical &amp; Computer Engineering &middot; Jan 2025 &ndash; Dec 2025</p>
+        </div>
+      </article>
+
+      <article class="job">
+        <div class="logo-card logo-text">
+          <span>St. Joseph&rsquo;s<br>College of Engineering</span>
+        </div>
+        <div class="job-body">
+          <h3>St. Joseph&rsquo;s College of Engineering, Chennai</h3>
+          <p class="job-meta">B.E., Electronics &amp; Communication Engineering &middot; 2019 &ndash; 2023</p>
+        </div>
+      </article>
+    </section>
+
+    <!-- Skills -->
+    <section class="section container reveal" id="skills" aria-labelledby="skills-heading">
+      <h2 id="skills-heading">Skills</h2>
+      <dl class="skills-list">
+        <div>
+          <dt>Languages</dt>
+          <dd>SystemVerilog, Verilog, UVM, Python, C, MATLAB</dd>
+        </div>
+        <div>
+          <dt>Tools</dt>
+          <dd>Xilinx Vivado, Intel Quartus Prime, Cadence Virtuoso, Verilator, PYNQ FPGA</dd>
+        </div>
+        <div>
+          <dt>Verification</dt>
+          <dd>UVM testbenches, constrained-random stimulus, functional/code coverage, SVA assertions</dd>
+        </div>
+        <div>
+          <dt>Also</dt>
+          <dd>RTL design, synthesis, timing analysis, Git, Jira, Agile</dd>
+        </div>
+      </dl>
+    </section>
+
+    <!-- Contact -->
+    <section class="section container reveal" id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact</h2>
+      <div class="contact-actions">
+        <a class="btn" href="mailto:vigneshmdm@yahoo.com">Email me</a>
+        <a class="btn btn-outline" href="https://www.linkedin.com/in/vigneshmdm/" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn btn-outline" href="assets/resume.pdf" download>Download resume</a>
+      </div>
+      <ul class="contact-list">
+        <li><span class="label">Email</span> <a href="mailto:vigneshmdm@yahoo.com">vigneshmdm@yahoo.com</a></li>
+        <li><span class="label">Phone</span> <a href="tel:+13828852396">+1 (382) 885-2396</a></li>
+        <li><span class="label">Location</span> Richmond Hill, Ontario, Canada</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Vignesh Karuppasamy D M</p>
+  </footer>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
